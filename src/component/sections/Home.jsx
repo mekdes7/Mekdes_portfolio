@@ -32,7 +32,7 @@ export const Home = () => {
               Contact Me
             </a>
 
-            <a href="{`${import.meta.env.VITE_BASE_URL}MkResume.pdf`}" download='MkResume.pdf'
+            <a href="https://mekdes7.github.io/Mekdes_portfolio/MkResume.pdf" download='MkResume.pdf'
               className="border border-amber-500/50 text-amber-500 py-3 px-6 rounded font-medium transition hover:scale-105">
               Download My CV
             </a>
