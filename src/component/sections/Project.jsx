@@ -58,17 +58,19 @@ export const Project = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 
                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-amber-500 font-bold mb-4">
-                <strong>Employee Management System</strong>
+                <strong>Book Store</strong>
               </h3>
-              <p className="text-sm text-gray-300">Ongoing Project</p>
+              
               <p className="text-sm text-gray-300">
-                A software solution for managing employee data, attendance, leave, payroll, and performance.
+                A software solution for managing Book Store. it has CRUD for books.
+                and for future it will have a user Authentication, Advanced Book Management,Rating and Review System,
+                and Book Search and Filter.
               </p>
 
              
               <div className="mt-4">
                 <div className="flex flex-wrap gap-2">
-                  {["Tailwind CSS", "ReactJs", "NodeJs", "ExpressJs", "MySQL", "Postman"].map((tech, key) => (
+                  {["Tailwind CSS", "ReactJs", "NodeJs", "ExpressJs", "Postman"].map((tech, key) => (
                     <span key={key} className="bg-amber-500/20 text-amber-500 py-1 px-3 rounded-full text-xs md:text-sm 
                         hover:bg-amber-500/65 hover:text-white transition">
                       {tech}
@@ -77,15 +79,76 @@ export const Project = () => {
                 </div>
               </div>
 
-              {/* View Project Link */}
+             
               <div className="text-center mt-6">
-                <a href="https://github.com/mekdes7/Prodigy_FS_UserAuthentication"
+                <a href="https://github.com/mekdes7/BookStore"
                   className="block hover:text-amber-500 transition">
                   View Project ⇨
                 </a>
               </div>
             </div>
 
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 
+                hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-amber-500 font-bold mb-4">
+                <strong>Spotify Clone</strong>
+              </h3>
+              
+              <p className="text-sm text-gray-300">
+                mimic Spotify's UI and functionality using ReactJs and Tailwind CSS.
+              </p>
+
+             
+              <div className="mt-4">
+                <div className="flex flex-wrap gap-2">
+                  {["Tailwind CSS", "ReactJs"].map((tech, key) => (
+                    <span key={key} className="bg-amber-500/20 text-amber-500 py-1 px-3 rounded-full text-xs md:text-sm 
+                        hover:bg-amber-500/65 hover:text-white transition">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+             
+              <div className="text-center mt-6">
+                <a href="https://github.com/mekdes7/Spotify-Clone"
+                  className="block hover:text-amber-500 transition">
+                  View Project ⇨
+                </a>
+              </div>
+            </div>
+
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 
+                hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-amber-500 font-bold mb-4">
+                <strong>Landing Page</strong>
+              </h3>
+              
+              <p className="text-sm text-gray-300">
+                A responsive, dynamic and interactive landing page built with ReactJs and Tailwind CSS. 
+              </p>
+
+             
+              <div className="mt-4">
+                <div className="flex flex-wrap gap-2">
+                  {["Tailwind CSS", "ReactJs"].map((tech, key) => (
+                    <span key={key} className="bg-amber-500/20 text-amber-500 py-1 px-3 rounded-full text-xs md:text-sm 
+                        hover:bg-amber-500/65 hover:text-white transition">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+             
+              <div className="text-center mt-6">
+                <a href="https://github.com/mekdes7/BookStore"
+                  className="block hover:text-amber-500 transition">
+                  View Project ⇨
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </RevealOnScroll>
