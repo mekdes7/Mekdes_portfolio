@@ -39,7 +39,7 @@ export const Project = () => {
 
 
               <div className="text-center mt-6">
-              {/* <a  className="block rounded-3xl w-50 h-7 hover:text-amber-500 hover:bg-white transition bg-amber-500/65 mb-4" href='https://social-media-web-app-flame.vercel.app/'>View Live</a> */}
+              <a  className="block rounded-3xl w-50 h-7 hover:text-amber-500 hover:bg-white transition bg-amber-500/65 mb-4" href='https://social-media-web-app-flame.vercel.app/'>View Live</a> 
                 <a href="https://github.com/mekdes7/Social-Media-Web-app"
                   className="block rounded-3xl w-50 h-7 hover:text-amber-500 hover:bg-white transition bg-amber-500/65">
                   View Source Code ⇨
