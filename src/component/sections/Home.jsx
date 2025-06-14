@@ -11,7 +11,7 @@ export const Home = () => {
           </h1>
 
           <div className="flex flex-col md:flex-row items-center gap-6">
-            <img src="/Mekdes_portfolio/mine.jpg" alt="Mekdes Alemayehu"
+            <img src="/mine.jpg" alt="Mekdes Alemayehu"
               className="w-32 h-32 md:w-44 md:h-44 lg:w-52 lg:h-52 rounded-full object-cover shadow-lg" />
 
             <p className="text-gray-300 text-lg md:text-xl max-w-lg mx-auto text-center md:text-left">
@@ -32,7 +32,7 @@ export const Home = () => {
               Contact Me
             </a>
 
-            <a href="https://mekdes7.github.io/Mekdes_portfolio/MkResume.pdf" download='MkResume.pdf'
+            <a href="/MkResume.pdf" download='MkResume.pdf'
               className="border border-amber-500/50 text-amber-500 py-3 px-6 rounded font-medium transition hover:scale-105">
               Download My CV
             </a>
