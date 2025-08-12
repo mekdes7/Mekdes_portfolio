@@ -46,7 +46,38 @@ export const Project = () => {
                 </a>
               </div>
             </div>
+<div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 
+                hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-amber-500 font-bold mb-4">
+                <strong>Truck Link</strong>
+              </h3>
 
+              <p className="text-sm text-gray-300">
+               a bridge between truck drivers and managers,
+                allowing drivers to find and apply for jobs while managers can post job listings and manage applications.
+
+              </p>
+
+
+              <div className="mt-4">
+                <div className="flex flex-wrap gap-2">
+                  {["Tailwind CSS", "ReactJs","ExpressJs","NodeJs","MongoDb","PostgreSQL"].map((tech, key) => (
+                    <span key={key} className="bg-amber-500/20 text-amber-500 py-1 px-3 rounded-full text-xs md:text-sm 
+                        hover:bg-amber-500/65 hover:text-white transition">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+
+              <div className="text-center mt-6">
+                <a href="https://github.com/mekdes7/TruckLink"
+                  className="block rounded-3xl w-50 h-7 hover:text-amber-500 hover:bg-white transition bg-amber-500/65">
+                  View Source Code ⇨
+                </a>
+              </div>
+            </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 
                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-amber-500 font-bold mb-4">
